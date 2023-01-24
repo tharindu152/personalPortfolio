@@ -12,8 +12,6 @@ import MongoDBIcon from '../assets/img/mongodb.png';
 import SQLiteIcon from '../assets/img/sqlite-282687.webp';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from '../assets/img/arrow1.svg';
-import arrow2 from '../assets/img/arrow2.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 
 export const Skills = () => {
@@ -53,51 +51,51 @@ export const Skills = () => {
                 className='owl-carousel owl-theme skill-slider'
               >
                 <div className='item'>
-                  <img src={javaIcon} alt='Image' />
+                  <img src={javaIcon} alt='java' />
                   <h5>Java</h5>
                 </div>
                 <div className='item'>
-                  <img src={JavaScriptIcon} alt='Image' />
+                  <img src={JavaScriptIcon} alt='JavaScript' />
                   <h5>JavaScript</h5>
                 </div>
                 <div className='item'>
-                  <img src={HTMlIcon} alt='Image' />
+                  <img src={HTMlIcon} alt='HTML' />
                   <h5>HTML</h5>
                 </div>
                 <div className='item'>
-                  <img src={CssIcon} alt='Image' />
+                  <img src={CssIcon} alt='CSS' />
                   <h5>CSS</h5>
                 </div>
                 <div className='item'>
-                  <img src={jQueryIcon} alt='Image' />
+                  <img src={jQueryIcon} alt='jQuery' />
                   <h5>jQuery</h5>
                 </div>
                 <div className='item'>
-                  <img src={MongooseIcon} alt='Image' />
+                  <img src={MongooseIcon} alt='Mongoose' />
                   <h5>Mongoose</h5>
                 </div>
                 <div className='item'>
-                  <img src={BootstrapIcon} alt='Image' />
+                  <img src={BootstrapIcon} alt='Bootstrap' />
                   <h5>Bootstrap</h5>
                 </div>
                 <div className='item'>
-                  <img src={MongoDBIcon} alt='Image' />
+                  <img src={MongoDBIcon} alt='MongoDB' />
                   <h5>MongoDB</h5>
                 </div>
                 <div className='item'>
-                  <img src={ExpressIcon} alt='Image' />
+                  <img src={ExpressIcon} alt='Express' />
                   <h5>Express</h5>
                 </div>
                 <div className='item'>
-                  <img src={ReactIcon} alt='Image' />
+                  <img src={ReactIcon} alt='React' />
                   <h5>React</h5>
                 </div>
                 <div className='item'>
-                  <img src={NodeIcon} alt='Image' />
+                  <img src={NodeIcon} alt='Node' />
                   <h5>Node.js</h5>
                 </div>
                 <div className='item'>
-                  <img src={SQLiteIcon} alt='Image' />
+                  <img src={SQLiteIcon} alt='SQLite' />
                   <h5>SQLite</h5>
                 </div>
               </Carousel>
@@ -105,7 +103,11 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className='background-image-left' src={colorSharp} alt='Image' />
+      <img
+        className='background-image-left'
+        src={colorSharp}
+        alt='background'
+      />
     </section>
   );
 };

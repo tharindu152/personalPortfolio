@@ -13,7 +13,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = ['Developer', 'Designer', 'UI/UX Designer'];
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -23,6 +23,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text]);
 
   const tick = () => {
@@ -40,7 +41,7 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
+      setIndex((prevIndex) => prevIndex - index);
       setDelta(period);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
@@ -102,7 +103,7 @@ export const Banner = () => {
                     isVisible ? 'animate__animated animate__zoomIn' : ''
                   }
                 >
-                  <img src={headerImg} alt='Header Img' />
+                  <img src={headerImg} alt='Header' />
                 </div>
               )}
             </TrackVisibility>
