@@ -4,7 +4,7 @@ import headerImg from '../assets/img/Profile Pic.JPG';
 import { ArrowDownCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import cv from '../assets/img/Software Engineer.pdf';
+import cv from '../assets/img/Software Engineer - Tharindu Thennakoon.pdf';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
