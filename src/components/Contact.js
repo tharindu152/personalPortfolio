@@ -5,10 +5,6 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
-  // const [formDetails, setFormDetails] = useState();
-  // const [buttonText, setButtonText] = useState('Send');
-  // const [status, setStatus] = useState({});
-
   return (
     <section className='contact' id='connect'>
       <Container>
@@ -38,7 +34,7 @@ export const Contact = () => {
 
                   <form>
                     <a className='btn' href='mailto:chanaka152@gmail.com'>
-                      Email and contact me
+                      Send me an email
                     </a>
                   </form>
                 </div>

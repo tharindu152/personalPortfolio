@@ -108,7 +108,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-  width: 5%;
+  width: 15%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -488,7 +488,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .proj-txtx a {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0.8px;
   display: block;
   cursor: pointer;

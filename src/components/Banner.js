@@ -12,8 +12,12 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['Developer', 'Designer', 'UI/UX Designer'];
-  const period = 1000;
+  const toRotate = [
+    'Frontend Developer',
+    'Backend Developer',
+    'UI/UX Designer',
+  ];
+  const period = 700;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -69,22 +73,22 @@ export const Banner = () => {
                   <h1>
                     {`Hi! I'm Tharindu`}
                     <div>
-                      <span>Web </span>
+                      {/* <span>Web </span> */}
                       <span
                         className='txt-rotate'
-                        data-period='1000'
-                        data-rotate='[ "Developer", "Designer", "UI/UX Designer" ]'
+                        data-period='700'
+                        data-rotate='[ "Frontend Developer", "Backend Developer", "UI/UX Designer" ]'
                       >
                         <span className='wrap'>{text}</span>
                       </span>
                     </div>
                   </h1>
                   <p>
-                    I am a committed individual with a high interest on web
-                    technologies. During last few years, I managed to learn
-                    various programming languages such as Java, JavaScript and
-                    frameworks, libraries associated with them. My strength is
-                    to develop full stack web applications using MERN stack.
+                    I am a trainee software engineer with a high interest on
+                    full stack web technologies. My tech stack includes Java,
+                    JavaScript, MySQL and frameworks, libraries associated with
+                    them. My strength is to develop full stack web applications
+                    with Java backend and React frontend.
                   </p>
                   <a href={cv} download>
                     <button>

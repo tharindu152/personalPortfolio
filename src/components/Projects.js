@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
-import projImg1 from '../assets/img/FoodYummy.jpg';
-import projImg2 from '../assets/img/forkify.jpg';
-import projImg3 from '../assets/img/tindog.jpg';
+import bookstorebackend from '../assets/img/BookStore BackEnd.png';
+import bookstorefrontend from '../assets/img/bookstore-frontend.png';
+import simpleColorChooser from '../assets/img/ColorChooser.png';
+import draganddropapp from '../assets/img/Drag and Drop app.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -10,25 +11,24 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects = [
     {
-      title: 'Food Yummy',
-      liveDemo: 'https://foodyummytharindu.netlify.app/',
-      sourceCode: 'https://github.com/tharindu152/FoodYummyFrontEnd.git',
-      imgUrl: projImg1,
+      title: 'Bookstore Frontend',
+      sourceCode: 'https://github.com/tharindu152/bookstore-frontend',
+      imgUrl: bookstorefrontend,
     },
     {
-      title: 'Forkify',
-      liveDemo:
-        'https://forkify-tharindu.netlify.app/#5ed6604591c37cdc054bcc13',
-      sourceCode: 'https://github.com/tharindu152/forkify-app-tharindu',
-      description: 'Design & Development',
-      imgUrl: projImg2,
+      title: 'Bookstore Backend',
+      sourceCode: 'https://github.com/tharindu152/bookstore-backend',
+      imgUrl: bookstorebackend,
     },
     {
-      title: 'Tindog',
-      liveDemo: 'https://tindog-tharindu.netlify.app/',
-      sourceCode: 'https://github.com/tharindu152/tindog.app',
-      description: 'Design & Development',
-      imgUrl: projImg3,
+      title: 'Simple Color Chooser',
+      sourceCode: 'https://github.com/tharindu152/simple-color-chooser',
+      imgUrl: simpleColorChooser,
+    },
+    {
+      title: 'Drag and Drop App',
+      sourceCode: 'https://github.com/tharindu152/drag-and-drop-app',
+      imgUrl: draganddropapp,
     },
   ];
 
@@ -45,29 +45,8 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
-                    Food Yummy is my own full stack development with the use of
-                    MERN stack which includes a responsive UI. Frontend and
-                    Backend of the application was deployed seperately. Rest of
-                    the projects are test projects which were completed during
-                    Web Develpment bootcamp.
-                  </p>
+                  <p></p>
                   <Tab.Container id='projects-tabs' defaultActiveKey='first'>
-                    {/* <Nav
-                      variant='pills'
-                      className='nav-pills mb-5 justify-content-center align-items-center'
-                      id='pills-tab'
-                    >
-                      <Nav.Item>
-                        <Nav.Link eventKey='first'>Tab 1</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey='second'>Tab 2</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey='third'>Tab 3</Nav.Link>
-                      </Nav.Item>
-                    </Nav> */}
                     <Tab.Content
                       id='slideInUp'
                       className={
@@ -81,24 +60,6 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      {/* <Tab.Pane eventKey='section'>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey='third'>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                      </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
