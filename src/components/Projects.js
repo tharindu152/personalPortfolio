@@ -45,7 +45,13 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p></p>
+                  <p>
+                    Bookstore web application is one of the main projects which
+                    I have completed. Bookstore web app includes a Java backend
+                    and a React frontend. Please click the link to check out the
+                    source code of bookstore project. Further, I have created
+                    several desktop apps using java and JavaFX.
+                  </p>
                   <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                     <Tab.Content
                       id='slideInUp'
