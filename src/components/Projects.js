@@ -4,6 +4,7 @@ import bookstorebackend from '../assets/img/BookStore BackEnd.png';
 import bookstorefrontend from '../assets/img/bookstore-frontend.png';
 import simpleColorChooser from '../assets/img/ColorChooser.png';
 import draganddropapp from '../assets/img/Drag and Drop app.png';
+import galleryapp from '../assets/img/Gallery App.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -29,6 +30,11 @@ export const Projects = () => {
       title: 'Drag and Drop App',
       sourceCode: 'https://github.com/tharindu152/drag-and-drop-app',
       imgUrl: draganddropapp,
+    },
+    {
+      title: 'Gallery App',
+      sourceCode: 'https://github.com/tharindu152/gallery-app',
+      imgUrl: galleryapp,
     },
   ];
 
