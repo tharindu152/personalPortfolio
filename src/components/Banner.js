@@ -84,12 +84,7 @@ export const Banner = () => {
                     </div>
                   </h1>
                   <p>
-                    I am a trainee software engineer with a high interest on
-                    full stack web technologies. My tech stack includes Java,
-                    JavaScript, MySQL and frameworks, libraries associated with
-                    them. My strength is to develop full stack web applications
-                    with Java backend and React frontend.
-                  </p>
+                    I am a dedicated software developer with expertise in full-stack web applications, particularly the Java Spring stack and MERN stack. I'm currently pursuing an MSc in Information Technology at the Informatics Institute of Technology (IIT). With a blend of academic knowledge and hands-on experience, I have acquired the competencies needed for a successful software engineering career, committed to delivering high-quality solutions and continuously improving my skills to meet industry demands.</p>
                   <a href={cv} download>
                     <button>
                       Download CV <ArrowDownCircle size={25} />
