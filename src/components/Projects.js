@@ -2,8 +2,8 @@ import { Container, Row, Col, Tab } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
 import bookstorebackend from '../assets/img/BookStore BackEnd.png';
 import bookstorefrontend from '../assets/img/bookstore-frontend.png';
-import simpleColorChooser from '../assets/img/ColorChooser.png';
-import draganddropapp from '../assets/img/Drag and Drop app.png';
+import googledesignclone from '../assets/img/google.png'
+import iknamdesignclone from '../assets/img/ikman.png'
 import galleryapp from '../assets/img/Gallery App.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
@@ -22,14 +22,14 @@ export const Projects = () => {
       imgUrl: bookstorebackend,
     },
     {
-      title: 'Simple Color Chooser',
-      sourceCode: 'https://github.com/tharindu152/simple-color-chooser',
-      imgUrl: simpleColorChooser,
+      title: 'Ikman Design Clone',
+      sourceCode: 'https://github.com/tharindu152/ikman-design-clone',
+      imgUrl: iknamdesignclone,
     },
     {
-      title: 'Drag and Drop App',
-      sourceCode: 'https://github.com/tharindu152/drag-and-drop-app',
-      imgUrl: draganddropapp,
+      title: 'Google Design Clone',
+      sourceCode: 'https://github.com/tharindu152/google-design-clone',
+      imgUrl: googledesignclone,
     },
     {
       title: 'Gallery App',
@@ -52,11 +52,9 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Bookstore web application is one of the main projects which
-                    I have completed. Bookstore web app includes a Java backend
-                    and a React frontend. Please click the link to check out the
-                    source code of bookstore project. Further, I have created
-                    several desktop apps using java and JavaFX.
+                  I have successfully developed multiple full-stack web applications using a variety of technology stacks, 
+                  including Java Spring, MERN, and MEAN. In order to access to the source code of these projects, kindly refer
+                   to the following links. Projects components of my portfolio will be regularly updated as and when new projects are launched.
                   </p>
                   <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                     <Tab.Content

@@ -12,6 +12,7 @@ import Hibernate from '../assets/img/Hiberate.png';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from '../assets/img/color-sharp.png';
+import Angular from "../assets/img/angular.png"
 
 export const Skills = () => {
   const responsive = {
@@ -88,12 +89,16 @@ export const Skills = () => {
                   <h5>MongoDB</h5>
                 </div>
                 <div className='item'>
-                  <img src={SpringBoot} alt='MongoDB' />
+                  <img src={SpringBoot} alt='springboot' />
                   <h5>Spring Boot</h5>
                 </div>
                 <div className='item'>
-                  <img src={Hibernate} alt='MongoDB' />
+                  <img src={Hibernate} alt='hibernate' />
                   <h5>Hibernate</h5>
+                </div>
+                <div className='item'>
+                  <img src={Angular} alt='Angular' />
+                  <h5>Angular</h5>
                 </div>
               </Carousel>
             </div>

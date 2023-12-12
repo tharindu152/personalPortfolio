@@ -12,7 +12,7 @@ export const Footer = () => {
               <a href='https://www.linkedin.com/in/tharindu-thennakoon-b1a40b94'>
                 <img src={navIcon1} alt='Icon' />
               </a>
-              <a href='https://www.facebook.com/tharindu.thennakoon.397'>
+              <a href='https://github.com/tharindu152'>
                 <img src={navIcon2} alt='Icon' />
               </a>
             </div>

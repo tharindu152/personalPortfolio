@@ -27,7 +27,6 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text]);
 
   const tick = () => {
@@ -84,7 +83,7 @@ export const Banner = () => {
                     </div>
                   </h1>
                   <p>
-                    I am a dedicated software developer with expertise in full-stack web applications, particularly the Java Spring stack and MERN stack. I'm currently pursuing an MSc in Information Technology at the Informatics Institute of Technology (IIT). With a blend of academic knowledge and hands-on experience, I have acquired the competencies needed for a successful software engineering career, committed to delivering high-quality solutions and continuously improving my skills to meet industry demands.</p>
+                  I am a dedicated software developer with expertise in full-stack web applications, particularly using Java Spring, MEAN and MERN stacks. With a blend of academic knowledge and hands-on experience, I have acquired the competencies needed for a successful career in software engineering. I am committed to delivering high-quality solutions and continuously improving my skills to meet industry demands.</p>
                   <a href={cv} download>
                     <button>
                       Download CV <ArrowDownCircle size={25} />
