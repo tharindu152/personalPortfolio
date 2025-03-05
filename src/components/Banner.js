@@ -83,7 +83,12 @@ export const Banner = () => {
                     </div>
                   </h1>
                   <p>
-                  I am a dedicated software developer with expertise in full-stack web applications, particularly using Java Spring, MEAN and MERN stacks. With a blend of academic knowledge and hands-on experience, I have acquired the competencies needed for a successful career in software engineering. I am committed to delivering high-quality solutions and continuously improving my skills to meet industry demands.</p>
+                    I am an experienced software engineer specializing in full-stack web development, with sound
+                    expertise in Java Spring, MEAN, and MERN stacks. With a strong foundation in software engineering
+                    principles and extensive hands-on experience, I have successfully designed, developed, and deployed
+                    scalable applications. I am passionate about delivering high-quality solutions, I stay in-sync with industry
+                    trends and continuously refine my skills to drive innovation and efficiency in software development.
+                  </p>
                   <a href={cv} download>
                     <button>
                       Download CV <ArrowDownCircle size={25} />
